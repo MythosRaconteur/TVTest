@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0EB351161D53B6DF0045AE3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB351151D53B6DF0045AE3E /* AppDelegate.swift */; };
-		0EB351181D53B6DF0045AE3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB351171D53B6DF0045AE3E /* ViewController.swift */; };
+		0EB351181D53B6DF0045AE3E /* TVTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB351171D53B6DF0045AE3E /* TVTViewController.swift */; };
 		0EB3511B1D53B6DF0045AE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB351191D53B6DF0045AE3E /* Main.storyboard */; };
 		0EB3511D1D53B6DF0045AE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB3511C1D53B6DF0045AE3E /* Assets.xcassets */; };
 		0EB351201D53B6DF0045AE3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB3511E1D53B6DF0045AE3E /* LaunchScreen.storyboard */; };
+		0EB351281D53C6AC0045AE3E /* TVTTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB351271D53C6AC0045AE3E /* TVTTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EB351121D53B6DF0045AE3E /* TVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB351151D53B6DF0045AE3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EB351171D53B6DF0045AE3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EB351171D53B6DF0045AE3E /* TVTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTViewController.swift; sourceTree = "<group>"; };
 		0EB3511A1D53B6DF0045AE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EB3511C1D53B6DF0045AE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EB3511F1D53B6DF0045AE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EB351211D53B6DF0045AE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB351271D53C6AC0045AE3E /* TVTTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVTTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				0EB351151D53B6DF0045AE3E /* AppDelegate.swift */,
-				0EB351171D53B6DF0045AE3E /* ViewController.swift */,
+				0EB351171D53B6DF0045AE3E /* TVTViewController.swift */,
 				0EB351191D53B6DF0045AE3E /* Main.storyboard */,
 				0EB3511C1D53B6DF0045AE3E /* Assets.xcassets */,
 				0EB3511E1D53B6DF0045AE3E /* LaunchScreen.storyboard */,
 				0EB351211D53B6DF0045AE3E /* Info.plist */,
+				0EB351271D53C6AC0045AE3E /* TVTTableCell.swift */,
 			);
 			path = TVTest;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB351181D53B6DF0045AE3E /* ViewController.swift in Sources */,
+				0EB351181D53B6DF0045AE3E /* TVTViewController.swift in Sources */,
 				0EB351161D53B6DF0045AE3E /* AppDelegate.swift in Sources */,
+				0EB351281D53C6AC0045AE3E /* TVTTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
